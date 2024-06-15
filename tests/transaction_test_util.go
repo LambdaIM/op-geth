@@ -19,12 +19,12 @@ package tests
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/LambdaIM/op-geth/common"
+	"github.com/LambdaIM/op-geth/common/hexutil"
+	"github.com/LambdaIM/op-geth/core"
+	"github.com/LambdaIM/op-geth/core/types"
+	"github.com/LambdaIM/op-geth/params"
+	"github.com/LambdaIM/op-geth/rlp"
 )
 
 // TransactionTest checks RLP decoding and sender derivation of transactions.

@@ -22,13 +22,13 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/LambdaIM/op-geth/common"
+	"github.com/LambdaIM/op-geth/core/rawdb"
+	"github.com/LambdaIM/op-geth/core/types"
+	"github.com/LambdaIM/op-geth/crypto"
+	"github.com/LambdaIM/op-geth/ethdb"
+	"github.com/LambdaIM/op-geth/ethdb/memorydb"
+	"github.com/LambdaIM/op-geth/trie/trienode"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

@@ -25,13 +25,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/LambdaIM/op-geth/accounts/scwallet"
+	"github.com/LambdaIM/op-geth/accounts/usbwallet"
+	"github.com/LambdaIM/op-geth/common/hexutil"
+	"github.com/LambdaIM/op-geth/console/prompt"
+	"github.com/LambdaIM/op-geth/internal/jsre"
+	"github.com/LambdaIM/op-geth/rpc"
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/accounts/scwallet"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/rpc"
 )
 
 // bridge is a collection of JavaScript utility methods to bride the .js runtime

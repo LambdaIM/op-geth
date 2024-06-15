@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/LambdaIM/op-geth/common"
+	"github.com/LambdaIM/op-geth/log"
+	"github.com/LambdaIM/op-geth/params"
 )
 
 const (

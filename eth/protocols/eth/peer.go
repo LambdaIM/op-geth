@@ -21,11 +21,11 @@ import (
 	"math/rand"
 	"sync"
 
+	"github.com/LambdaIM/op-geth/common"
+	"github.com/LambdaIM/op-geth/core/types"
+	"github.com/LambdaIM/op-geth/p2p"
+	"github.com/LambdaIM/op-geth/rlp"
 	mapset "github.com/deckarep/golang-set/v2"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
 )
 
 const (

@@ -20,13 +20,13 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/LambdaIM/op-geth/common"
+	"github.com/LambdaIM/op-geth/core/rawdb"
+	"github.com/LambdaIM/op-geth/core/state"
+	"github.com/LambdaIM/op-geth/core/types"
+	"github.com/LambdaIM/op-geth/core/vm"
+	"github.com/LambdaIM/op-geth/crypto"
+	"github.com/LambdaIM/op-geth/params"
 	"github.com/holiman/uint256"
 )
 

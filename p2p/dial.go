@@ -27,10 +27,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/LambdaIM/op-geth/common/mclock"
+	"github.com/LambdaIM/op-geth/log"
+	"github.com/LambdaIM/op-geth/p2p/enode"
+	"github.com/LambdaIM/op-geth/p2p/netutil"
 )
 
 const (

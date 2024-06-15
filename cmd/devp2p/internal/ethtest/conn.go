@@ -24,13 +24,13 @@ import (
 	"reflect"
 	"time"
 
+	"github.com/LambdaIM/op-geth/crypto"
+	"github.com/LambdaIM/op-geth/eth/protocols/eth"
+	"github.com/LambdaIM/op-geth/eth/protocols/snap"
+	"github.com/LambdaIM/op-geth/p2p"
+	"github.com/LambdaIM/op-geth/p2p/rlpx"
+	"github.com/LambdaIM/op-geth/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
 )
 
 var (

@@ -25,17 +25,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/LambdaIM/op-geth"
+	"github.com/LambdaIM/op-geth/common"
+	"github.com/LambdaIM/op-geth/core/rawdb"
+	"github.com/LambdaIM/op-geth/core/state/snapshot"
+	"github.com/LambdaIM/op-geth/core/types"
+	"github.com/LambdaIM/op-geth/eth/protocols/snap"
+	"github.com/LambdaIM/op-geth/ethdb"
+	"github.com/LambdaIM/op-geth/event"
+	"github.com/LambdaIM/op-geth/log"
+	"github.com/LambdaIM/op-geth/params"
+	"github.com/LambdaIM/op-geth/triedb"
 )
 
 var (

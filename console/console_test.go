@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/LambdaIM/op-geth/common"
+	"github.com/LambdaIM/op-geth/console/prompt"
+	"github.com/LambdaIM/op-geth/core"
+	"github.com/LambdaIM/op-geth/eth"
+	"github.com/LambdaIM/op-geth/eth/ethconfig"
+	"github.com/LambdaIM/op-geth/internal/jsre"
+	"github.com/LambdaIM/op-geth/miner"
+	"github.com/LambdaIM/op-geth/node"
 )
 
 const (

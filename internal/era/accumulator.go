@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/LambdaIM/op-geth/common"
 	ssz "github.com/ferranbt/fastssz"
 )
 

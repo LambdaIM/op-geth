@@ -24,11 +24,11 @@ import (
 	"regexp"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/LambdaIM/op-geth/core"
+	"github.com/LambdaIM/op-geth/core/rawdb"
+	"github.com/LambdaIM/op-geth/core/vm"
+	"github.com/LambdaIM/op-geth/eth/tracers/logger"
+	"github.com/LambdaIM/op-geth/tests"
 	"github.com/urfave/cli/v2"
 )
 

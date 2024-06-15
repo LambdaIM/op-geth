@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/LambdaIM/op-geth/accounts"
+	"github.com/LambdaIM/op-geth/accounts/keystore"
+	"github.com/LambdaIM/op-geth/cmd/utils"
+	"github.com/LambdaIM/op-geth/crypto"
+	"github.com/LambdaIM/op-geth/log"
 	"github.com/urfave/cli/v2"
 )
 
